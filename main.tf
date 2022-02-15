@@ -15,6 +15,6 @@ module "aft" {
   
   # TF Vars
   terraform_distribution = "tfc"
-  terraform_token        = "EXAMPLE-uoc1c1qsw7poexampleewjeno1pte3rw"
-  terraform_org_name     = "ExampleOrg" 
+  terraform_token        = var.terraform_token
+  terraform_org_name     = var.terraform_org_name 
 }
