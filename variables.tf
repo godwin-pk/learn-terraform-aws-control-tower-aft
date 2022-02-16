@@ -102,7 +102,7 @@ variable "aft_vpc_endpoints" {
 }
 
 variable "github_username" {
-    type = "string"
+    type = string
 }
 #########################################
 # AFT Feature Flags
